@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - GENSHIN</title>
+  <title>CodePen - genshin ori</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -23,10 +23,9 @@
             <h1>INFINITE GAMER </h1>
         </header>
         <div class="input-data">
-            <input type="text" id="uder ID" placeholder="Input User ID">
-           </div  <div class="input-data">
-            
-            <p>Please enter your User ID and SERVER (America,Asia,Europe, TW_HK_MO) make sure it is correct. Example: 12345678.</p>
+            <input type="text" id="userId" placeholder="Input User ID">
+            <input type="text" id="zoneId" placeholder="Input Your Server">
+            <p>Please enter your correct User ID and your Server(Asia,America,Europe,TW,HK,MO) to select Service amount</p>
         </div>
         <div class="section-title">
             <img src="https://i.ibb.co/GP3QgQd/download.jpg" alt="Select Service Icon" class="title-icon">
@@ -36,8 +35,8 @@
             <div class="product-card" onclick="selectProduct(this)">
                 <img src="https://static-src.vocagame.com/gamestoreindonesia/Item_Blessing_of_the_Welkin_Moon-59110-original.webp" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p>Welkin Moon 1x</p>
-                    <p>INR 400</p>
+                   <p>Welkin Moon 1X</p>
+                    <p>INR 420</p>
               </div>
          
     
@@ -45,40 +44,51 @@
             <div class="product-card" onclick="selectProduct(this)">
                 <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/60_Genshin-Impact_Crystals-6d26-original.png" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p>60 Genesis Crystals</p>
+                    <p>60 Crystals</p>
                     <p>INR 90</p>
                 </div> </div class="product-selection">
             <div class="product-card" onclick="selectProduct(this)">
                 <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/300_Genshin-Impact_Crystals-6643-original.png" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p>300+30 Genesis Crystals </p>
-                    <p>INR 450</p>
+                    <p>300+30 Crystals</p>
+                    <p>INR 420</p>
                 </div> </div class="product-selection">
             <div class="product-card" onclick="selectProduct(this)">
                 <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/300_Genshin-Impact_Crystals-6643-original.png" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p>980+110 Genesis Crystals
-                 </p>
-                    <p>INR 1200</p>
+                    <p>980+110 Crystals </p>
+                    <p>INR 1250</p>
                 </div> </div class="product-selection">
             <div class="product-card" onclick="selectProduct(this)">
                 <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/980_Genshin-Impact_Crystals-a5b1-original.png" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p>1980+260 Genesis Crystals </p>
+                    <p>1980+260</p>
                     <p>INR 2600</p>
                 </div> </div class="product-selection">
             <div class="product-card" onclick="selectProduct(this)">
-                <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/6480_Genshin-Impact_Crystals-6dca-original.png" alt="Product Image" class="product-image">
+                <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/980_Genshin-Impact_Crystals-a5b1-original.png" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p> 3280+600 Genesis Crystals</p>
-                    <p>INR 4000</p>
+                    <p>3280+600</p>
+                    <p>INR 3900</p>
                 </div> </div class="product-selection">
             <div class="product-card" onclick="selectProduct(this)">
                 <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/6480_Genshin-Impact_Crystals-6dca-original.png" alt="Product Image" class="product-image">
                 <div class="product-info">
-                    <p> 6480+1600 Genesis Crystals</p>
+                    <p>6480+1600 Crystals</p>
                     <p>INR 8000</p>
-               
+                </div> </div class="product-selection">
+            <div class="product-card" onclick="selectProduct(this)">
+                <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/genshin-impact-blessings-of-welkinmoon-7211-original.png" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <p>Blessing Welkin Moon x 2</p>
+                    <p>INR 820</p>
+                </div> </div class="product-selection">
+            <div class="product-card" onclick="selectProduct(this)">
+                <img src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/3ztstore/genshin-impact-blessings-of-welkinmoon-7211-original.png" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <p>Blessing Welkin Moon x 5</p>
+                    <p>INR 2000</p>
+                </div>
                 </div> 
                 </div>
           </div>
@@ -87,7 +97,7 @@
         </div>
         <div class="section-title">
             <img src="https://th.bing.com/th?id=OIP.QDT0BBYtna1tMdci6KyTvQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Select Payment Icon" class="title-icon">
-            <h2>Select Payment Method</h2>
+            <h2>Select Payment Method (8414075796)</h2>
         </div>
         <div class="payment-selection">
             <div class="payment-option" onclick="selectPayment(this)">
